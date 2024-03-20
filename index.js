@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 const systemgeneratedNo = Math.floor(Math.random() * 10);
 const answers = await inquirer.prompt([{
